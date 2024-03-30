@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Header } from './components/Header'
 import Project from './components/Project'
+import ScrollToTopButton from './components/ScrollToTop'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>  
@@ -70,8 +71,16 @@ function App() {
                 /> 
             </div>
           </section>
+          <br />
+          <section id = "#internships">
 
+          </section>
+          <br />
+          <section id = "#contact">
+
+          </section>
         </div>
+        <ScrollToTopButton />
     </> 
   )
 }
