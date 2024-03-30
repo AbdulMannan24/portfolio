@@ -16,7 +16,7 @@ function App() {
           <section id = "intro">
             <div class="grid grid-cols-2 gap-4 text-white pl-10 m-4">
               <div class="col-span-2 md:col-span-1 md:row-start-1 md:row-end-2 p-4">
-                  <h1 className="font-bold">Introduction</h1>
+                  <h1 className="font-bold hidden">Introduction</h1>
                   <br /> 
                   <p>Hey there, I'm Abdul Mannan, a passionate <code>Software Engineer</code>.</p>
                    <p>I love solving real-world problems with code, learning new technologies and <span className="font-bold">building products.</span></p>
