@@ -41,9 +41,9 @@ export function Header() {
             </div>
             <div className="hidden md:flex items-center space-x-4 pr-5">
                 <a href="https://google.com"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Resume</button></a>
-                <button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4" section="#projects">Projects</button>
-                <button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Internships</button>
-                <button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Contact me</button>
+                <a href="#projects"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Projects</button> </a>
+                <a href="#internships"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Internships</button> </a>
+                <a href="#contact"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Contact me</button> </a>
             </div>
         </div>
     );
