@@ -73,22 +73,25 @@ function App() {
             </div>
           </section>
           <br />
-          <section id = "internships">
-              <div className = "flex">
+          <section id = "internships" className = "ml-8">
+              <h1 className = "font-bold text-2xl text-white">Internships</h1>
+              <div className = "flex text-white">
 
               </div>
           </section>
           <br />
           <section id = "contact" className = "ml-8">
-              <h2 className = "font-bold text-xl text-white"> Contact me</h2>
-              <div className = "text-white text-center">
+              <h1 className = "font-bold text-2xl text-white"> Contact me</h1>
+              <div className = "text-white text-center ">
                   <br />
-                  <h3 className = "font-bold">Get in touch</h3>
+                  <h2 className = "font-semibold">Get in touch</h2>
+                  <code>
                   <span>Phone :</span><a href="tel:+918882192787"> +91 888-529-1856</a> 
                   <br />
                   <span>Email :</span><a href="mailto:abdulmannan240402@gmail.com"> abdulmannan240402@gmail.com</a>
                   <br />
                   <span>Social Links :</span>&nbsp;<a href="https://www.linkedin.com/in/abdul-mannan-88b7081a3/"><button><FaLinkedin /></button> </a> &nbsp;<a href="https://github.com/abdulmannan24"><button><FaGithub /></button> </a> &nbsp;<a href="https://wa.me/+918885291856"><button><FaWhatsapp /></button> </a>
+                  </code>
               </div>
           </section>
         </div>
