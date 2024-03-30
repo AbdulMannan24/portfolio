@@ -12,10 +12,14 @@ function App() {
     <>  
         <div className="bg-slate-900 p-5">
           <Header></Header>
+          <br />
           <section id = "intro">
             <div class="grid grid-cols-2 gap-4 text-white pl-10 m-4">
               <div class="col-span-2 md:col-span-1 md:row-start-1 md:row-end-2 p-4">
                   <h1 className="font-bold">Introduction</h1>
+                  <br /> 
+                  <p>Hey there, I'm Abdul Mannan, a passionate <code>Software Engineer</code>.</p>
+                   <p>I love solving real-world problems with code, learning new technologies and <span className="font-bold">building products.</span></p>
               </div>
               <div class="col-span-2 md:col-span-1 md:row-start-1 md:row-end-2 p-4 ">
                   <h1 className="font-bold text-xl">Education</h1> 
@@ -28,14 +32,14 @@ function App() {
                   <h2 className="font-bold "> Courses</h2>
                   <ul className="">
                     <li>- Full Stack Web Development </li>
-                    <li>- Data Structures and Alogrithms</li>
+                    <li>- Data Structures and Algorithms</li>
                     <li>- React: the complete guide 2024 </li>
                     <li>- Backend Developement and Apis Certification</li>
                   </ul>
               </div>
-              <div class="col-span-2 md:col-span-2 md:row-start-2 md:row-end-3 border border-gray-100 p-4 mr-10">
+              <div className="col-span-2 md:col-span-2 md:row-start-2 md:row-end-3 border border-gray-100 p-4 mr-20">
                   <h1 className="font-bold text-xl">skills</h1>
-                  <code>javaScript, React, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma , C, Cpp, Java, Python</code> 
+                  <code>javaScript, React.js, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma, C, Cpp, Java, Python</code> 
 
               </div>
             </div>
