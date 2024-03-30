@@ -75,8 +75,37 @@ function App() {
           <br />
           <section id = "internships" className = "ml-8">
               <h1 className = "font-bold text-2xl text-white">Internships</h1>
-              <div className = "flex text-white">
-
+              <br />
+              <div className = "text-white">
+                <div>
+                  <code>
+                    <h3> Software Developer Intern - Backend</h3>
+                    <i>Hashedbit Innovations</i>
+                    &nbsp; &nbsp;
+                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 sept 2023 - 29 Dec 2023</span>
+                    <br />
+                    <ul>
+                      <li>Tools and Technologies: Node.js, Express.js, MySql, jira, git/github, postman</li>
+                      <li>-&gt; responsible for designing, writing, testing Apis </li>
+                      <li>-&gt; majorly contributed in Crud operations for Learning Management System, Sql Crud Automation projects</li>
+                      <li>-&gt; worked with a team of 8 members, received mentorship from Sr Developers</li>
+                      <li>-&gt; recieved LoA/experience letter after completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span class="underline text-blue-500">link</span></a> </li>
+                    </ul>
+                    </code>
+                </div>
+                <br />
+                <div>
+                  <code>
+                    <h3> Web Developer Intern</h3>
+                    <i>The Sparks Foundation</i>
+                    &nbsp; &nbsp;
+                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 june 2022 - 2 july 2022</span>
+                    <br />
+                    <ul>
+                      <li>Tools and Technoloies: Html, Css, Ejs, Node.js, express.js, mySql, heroku, git/github</li>
+                    </ul>
+                    </code>
+                </div>
               </div>
           </section>
           <br />
@@ -92,6 +121,7 @@ function App() {
                   <br />
                   <span>Social Links :</span>&nbsp;<a href="https://www.linkedin.com/in/abdul-mannan-88b7081a3/"><button><FaLinkedin /></button> </a> &nbsp;<a href="https://github.com/abdulmannan24"><button><FaGithub /></button> </a> &nbsp;<a href="https://wa.me/+918885291856"><button><FaWhatsapp /></button> </a>
                   </code>
+                  <br />
               </div>
           </section>
         </div>
