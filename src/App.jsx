@@ -21,7 +21,7 @@ function App() {
                   <h1 className="font-bold hidden">Introduction</h1>
                   <br /> 
                   <p>Hey there, I'm Abdul Mannan, a passionate <code>Software Engineer</code>.</p>
-                   <p>I love solving real-world problems with code, learning new technologies and <span className="font-bold">building products.</span></p>
+                   <p>I love solving real-world problems with code, learning new technologies, and <span className="font-bold">building products.</span></p>
               </div>
               <div class="col-span-2 md:col-span-1 md:row-start-1 md:row-end-2 p-4 ">
                   <h1 className="font-bold text-xl">Education</h1> 
@@ -69,7 +69,24 @@ function App() {
                   title={"Paytm Clone App"}
                   stack={"MERN"}
                   about = {""} 
-                /> 
+                />
+                {/* <Project 
+                  image = "https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg"
+                  title={"Summer Internship Project"}
+                  stack={"Html, Css, ejs, node.js, express.js, mySql"}
+                  about = {"*live link expired due to heroku's policy change"} 
+                />  */}
+                <div className="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden m-4">
+                  <img className="w-full" src = "" alt="Project" />
+                  <div className="p-4">
+                      <h3 className="text-xl font-bold mb-2 text-black">Summer Internship Project</h3>
+                      <p className="text-gray-700 mb-4"> Technologies: Html, Css, ejs, node.js, express.js, mysql </p>
+                      <p className="text-gray-700 mb-4">about</p>
+                      <div className="flex justify-evenly">
+                          <a href=""><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Code</button></a>
+                      </div>
+                </div>
+            </div>
             </div>
           </section>
           <br />
