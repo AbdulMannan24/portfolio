@@ -89,7 +89,7 @@ function App() {
                       <li>-&gt; responsible for designing, writing, testing Apis </li>
                       <li>-&gt; majorly contributed in Crud operations for Learning Management System, Sql Crud Automation projects</li>
                       <li>-&gt; worked with a team of 8 members, received mentorship from Sr Developers</li>
-                      <li>-&gt; recieved LoA/experience letter after completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span class="underline text-blue-500">link</span></a> </li>
+                      <li>-&gt; recieved LoA/experience letter post completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span class="underline text-blue-500">link</span></a> </li>
                     </ul>
                     </code>
                 </div>
