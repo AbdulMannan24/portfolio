@@ -32,7 +32,7 @@ function App() {
                   <br />
                    <h1> Computer Science and Engineering</h1>
                    <h2>Bachelors of Engineering - Osmania University</h2>
-                   <p><code>Batch : 2019-2023 &nbsp;&nbsp;&nbsp;&nbsp; Certificate: <a href="https://google.com"><span class="underline text-blue-500">link</span>
+                   <p><code>Batch : 2019-2023 &nbsp;&nbsp;&nbsp;&nbsp; Certificate: <a href="https://drive.google.com/file/d/11BzKEFRHIJP-2mKbP8q2_TLo7cZPQX_S/view"><span class="underline text-blue-500">link</span>
 </a> </code></p>
                   <br />
                   <h2 className="font-bold "> Courses</h2>
