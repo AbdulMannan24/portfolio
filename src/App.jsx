@@ -146,7 +146,7 @@ function App() {
                   <br />
                   <h2 className = "font-semibold">Get in touch</h2>
                   <code>
-                  <span>Phone :</span><a href="tel:+918882192787"> +91 888-529-1856</a> 
+                  <span>Phone :</span><a href="tel:+918885291856"> +91 888-529-1856</a> 
                   <br />
                   <span>Email :</span><a href="mailto:abdulmannan240402@gmail.com"> abdulmannan240402@gmail.com</a>
                   <br />
