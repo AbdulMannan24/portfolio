@@ -33,14 +33,14 @@ export function Header() {
                 <button onClick={toggleDropdown} className="md:hidden bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Menu</button>
                 {/* Dropdown menu */}
                 <div className={`absolute ${dropdownOpen ? 'block' : 'hidden'} right-0 mt-1 w-48 bg-white rounded-lg shadow-md z-10`}>
-                    <a href="https://google.com" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Resume</a>
+                    <a href="https://drive.google.com/file/d/1tiXU4lNY_0nqOqVfcI9JPqRqX8ghPY8e/view?usp=sharing" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Resume</a>
                     <a href="#projects" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Projects</a>
                     <a href="#internships" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Internships</a>
                     <a href="#contact" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Contact me</a>
                 </div>
             </div>
             <div className="hidden md:flex items-center space-x-4 pr-5">
-                <a href="https://google.com"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Resume</button></a>
+                <a href="https://drive.google.com/file/d/1tiXU4lNY_0nqOqVfcI9JPqRqX8ghPY8e/view?usp=sharing"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Resume</button></a>
                 <a href="#projects"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Projects</button> </a>
                 <a href="#internships"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Internships</button> </a>
                 <a href="#contact"><button className="bg-white rounded-lg text-sm text-gray-800 font-semibold py-2 px-4">Contact me</button> </a>

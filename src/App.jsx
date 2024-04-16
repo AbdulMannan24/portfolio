@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -6,6 +6,10 @@ import { Header } from './components/Header'
 import Project from './components/Project'
 import ScrollToTopButton from './components/ScrollToTop'
 import { FaGithub, FaLinkedin, FaPhone, FaWhatsapp } from 'react-icons/fa'
+import  ecommerce from './assets/ecommerce.png'
+import paytm from './assets/paytm.png'
+import customGpt from './assets/customGpt.png'
+import techno from './assets/techno.png'
 
 function App() {
 
@@ -41,7 +45,7 @@ function App() {
               </div>
               <div className="col-span-2 md:col-span-2 md:row-start-2 md:row-end-3 border border-gray-100 p-4 mr-20">
                   <h1 className="font-bold text-xl">skills</h1>
-                  <code>javaScript, React.js, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma, C, Cpp, Java, Python</code> 
+                  <code>javaScript, React.js, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma, C, Cpp, Java, Python, TailwindCSS, HTML, Css</code> 
 
               </div>
             </div>
@@ -53,23 +57,31 @@ function App() {
             <br />
             <div className="flex flex-wrap justify-center text-white ">
                 <Project 
-                  image = ""
-                  title={"Real-Time Chat App (coming soon..)"}
-                  stack={"MERN, Socket.io, tailwind Css"}
-                  about = {""}
-                />
-                <Project 
-                  image = "https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg"
+                  image = {ecommerce}
                   title={"Ecommerce App"}
-                  stack={"MERN"}
+                  stack={"MERN, TailwindCSS"}
                   about = {""} 
+                  live={"https://ecommerce-five-orcin.vercel.app/"}
+                  code={"https://github.com/abdulmannan24/ecommerce"}
                 />
                 <Project 
-                  image = "https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg"
-                  title={"Paytm Clone App"}
-                  stack={"MERN"}
-                  about = {""} 
+                  image = {customGpt}
+                  title={"Custom Gpt"}
+                  stack={"React.js, Node.js, Express.js, tailwindCSS"}
+                  about = {""}
+                  live={"https://custom-gpt-tau.vercel.app/"}
+                  code = {"https://github.com/abdulmannan24/customgpt"}
                 />
+                
+                <Project 
+                  image = {paytm}
+                  title={"Paytm Clone App"}
+                  stack={"MERN, TailwindCSS"}
+                  about = {""} 
+                  live={"https://paytm-blush.vercel.app/"}
+                  code={"https://github.com/abdulmannan24/paytm"}
+                />
+                
                 {/* <Project 
                   image = "https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg"
                   title={"Summer Internship Project"}
@@ -77,16 +89,16 @@ function App() {
                   about = {"*live link expired due to heroku's policy change"} 
                 />  */}
                 <div className="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden m-4">
-                  <img className="w-full" src = "" alt="Project" />
+                  <img className="w-full" src = {techno} alt="Project" />
                   <div className="p-4">
-                      <h3 className="text-xl font-bold mb-2 text-black">Summer Internship Project</h3>
-                      <p className="text-gray-700 mb-4"> Technologies: Html, Css, ejs, node.js, express.js, mysql </p>
-                      <p className="text-gray-700 mb-4">about</p>
+                      <h3 className="text-xl font-bold mb-2 text-black">TechnoHvacr Solutions Website</h3>
+                      <p className="text-gray-700 mb-4"> Technologies: Html, Css, js, Bootstrap </p>
+
                       <div className="flex justify-evenly">
-                          <a href=""><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Code</button></a>
+                          <a href="https://technohvacr.in"><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Live</button></a>
                       </div>
+                  </div>
                 </div>
-            </div>
             </div>
           </section>
           <br />
@@ -106,21 +118,23 @@ function App() {
                       <li>-&gt; responsible for designing, writing, testing Apis </li>
                       <li>-&gt; majorly contributed in Crud operations for Learning Management System, Sql Crud Automation projects</li>
                       <li>-&gt; worked with a team of 8 members, received mentorship from Sr Developers</li>
-                      <li>-&gt; recieved LoA/experience letter post completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span class="underline text-blue-500">link</span></a> </li>
+                      <li>-&gt; recieved LoA/experience letter post completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span className="underline text-blue-500">link</span></a> </li>
                     </ul>
                     </code>
                 </div>
                 <br />
                 <div>
                   <code>
-                    <h3> Web Developer Intern</h3>
+                    <h3> Web Developer - Summer Intern</h3>
                     <i>The Sparks Foundation</i>
                     &nbsp; &nbsp;
                     <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 june 2022 - 2 july 2022</span>
                     <br />
                     <ul>
                       <li>Tools and Technoloies: Html, Css, Ejs, Node.js, express.js, mySql, heroku, git/github</li>
+                      <li>Developed a Dynamic Full Stack Application <a href="https://github.com/abdulmannan24/sparkbank"><span className='underline text-blue-500'>code</span></a></li>
                     </ul>
+
                     </code>
                 </div>
               </div>
