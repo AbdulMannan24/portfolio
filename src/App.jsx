@@ -45,16 +45,74 @@ function App() {
               </div>
               <div className="col-span-2 md:col-span-2 md:row-start-2 md:row-end-3 border border-gray-100 p-4 mr-20">
                   <h1 className="font-bold text-xl">skills</h1>
-                  <code>javaScript, React.js, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma, C, Cpp, Java, Python, TailwindCSS, HTML, Css</code> 
+                  <code>javaScript, TypeScript, React.js, Node.js, Express.js, MongoDb, MySql, PostgreSQL, Mongoose, Prisma, C, Cpp, Java, Python, TailwindCSS, HTML, Css</code> 
 
               </div>
             </div>
 
           </section>
           <br />
+          <section id = "internships" className = "ml-8">
+              <h1 className = "font-bold text-2xl text-white">Experience</h1>
+              <br />
+              <div className = "text-white">
+              <div>
+                  <code>
+                    <h3> Full Stack Developer</h3>
+                    <i>Pixentech Pvt Ltd [pixent.net]</i>
+                    &nbsp; &nbsp;
+                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 10 June 2024 - Present</span>
+                    <br />
+                    <br />
+                    <ul>
+                      <li>Tools and Technologies: Node.js, Express.js, React.js, MongoDB, TS, MySql, jira, git/github, postman</li>
+                      <li>-&gt; A Full Time role majorly Focused on Backend Development(75%), with casual work on React.js(25%)</li>
+                      <li>-&gt; I work on IGaming Backend Systems, involving a complex Microservices Architecture and a DB with Millions of Docs</li>
+                      <li>-&gt; Directly communicate with International Clients, including CTO's, Managers, QA Teams on a frequent basis</li>
+                      <li>-&gt; Contributed Individually on Integrating 3rd Party Payment Gateways, and in Teams as well</li>
+                      <li>-&gt; Delivered a Client Project within 2 months</li>                      
+                    </ul>
+                    </code>
+                </div>
+                <br />
+                <div>
+                  <code>
+                    <h3> Software Developer Intern - Backend</h3>
+                    <i>Hashedbit Innovations</i>
+                    &nbsp; &nbsp;
+                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 sept 2023 - 29 Dec 2023</span>
+                    <br />
+                    <ul>
+                      <li>Tools and Technologies: Node.js, Express.js, MySql, jira, git/github, postman</li>
+                      <li>-&gt; responsible for designing, writing, testing Apis </li>
+                      <li>-&gt; majorly contributed in Crud operations for Learning Management System, Sql Crud Automation projects</li>
+                      <li>-&gt; worked with a team of 8 members, received mentorship from Sr Developers</li>
+                      <li>-&gt; recieved LoA/experience letter post completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span className="underline text-blue-500">link</span></a> </li>
+                    </ul>
+                    </code>
+                </div>
+                <br />
+                <div>
+                  <code>
+                    <h3> Web Developer - Summer Intern</h3>
+                    <i>The Sparks Foundation</i>
+                    &nbsp; &nbsp;
+                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 june 2022 - 2 july 2022</span>
+                    <br />
+                    <ul>
+                      <li>Tools and Technoloies: Html, Css, Ejs, Node.js, express.js, mySql, heroku, git/github</li>
+                      <li>Developed a Dynamic Full Stack Application <a href="https://github.com/abdulmannan24/sparkbank"><span className='underline text-blue-500'>code</span></a></li>
+                    </ul>
+
+                    </code>
+                </div>
+              </div>
+          </section>
+          <br />
           <section id="projects">
             <h1 className="text-white ml-5 text-2xl font-bold">Projects</h1>
             <br />
+            <h3 className='text-white'>Note: Rightnow I am more focused on my full-time job, so less active on my personal Github. Will be back soon With 10X better Projects!!!</h3>
             <div className="flex flex-wrap justify-center text-white ">
                 <Project 
                   image = {ecommerce}
@@ -102,44 +160,7 @@ function App() {
             </div>
           </section>
           <br />
-          <section id = "internships" className = "ml-8">
-              <h1 className = "font-bold text-2xl text-white">Internships</h1>
-              <br />
-              <div className = "text-white">
-                <div>
-                  <code>
-                    <h3> Software Developer Intern - Backend</h3>
-                    <i>Hashedbit Innovations</i>
-                    &nbsp; &nbsp;
-                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 sept 2023 - 29 Dec 2023</span>
-                    <br />
-                    <ul>
-                      <li>Tools and Technologies: Node.js, Express.js, MySql, jira, git/github, postman</li>
-                      <li>-&gt; responsible for designing, writing, testing Apis </li>
-                      <li>-&gt; majorly contributed in Crud operations for Learning Management System, Sql Crud Automation projects</li>
-                      <li>-&gt; worked with a team of 8 members, received mentorship from Sr Developers</li>
-                      <li>-&gt; recieved LoA/experience letter post completion of internship <a href="https://drive.google.com/file/d/1k8XZHg1xqQXvCRAl8Y83JoCsSUEKRAHG/view?usp=sharing"><span className="underline text-blue-500">link</span></a> </li>
-                    </ul>
-                    </code>
-                </div>
-                <br />
-                <div>
-                  <code>
-                    <h3> Web Developer - Summer Intern</h3>
-                    <i>The Sparks Foundation</i>
-                    &nbsp; &nbsp;
-                    <span>Location: remote</span> &nbsp;&nbsp; <span>Duration: 1 june 2022 - 2 july 2022</span>
-                    <br />
-                    <ul>
-                      <li>Tools and Technoloies: Html, Css, Ejs, Node.js, express.js, mySql, heroku, git/github</li>
-                      <li>Developed a Dynamic Full Stack Application <a href="https://github.com/abdulmannan24/sparkbank"><span className='underline text-blue-500'>code</span></a></li>
-                    </ul>
-
-                    </code>
-                </div>
-              </div>
-          </section>
-          <br />
+          
           <section id = "contact" className = "ml-8">
               <h1 className = "font-bold text-2xl text-white"> Contact me</h1>
               <div className = "text-white text-center ">
